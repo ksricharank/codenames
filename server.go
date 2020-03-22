@@ -223,7 +223,7 @@ func (s *Server) Start() error {
 	if err != nil {
 		return err
 	}
-	d, err := dictionary.Load("assets/original.txt")
+	d, err := dictionary.Load("assets/baby.txt")
 	if err != nil {
 		return err
 	}

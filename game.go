@@ -199,11 +199,11 @@ func newGame(id string, state GameState) *Game {
 
 	// Pick a random permutation of team assignments.
 	var teamAssignments []Team
-	teamAssignments = append(teamAssignments, Red.Repeat(8)...)
-	teamAssignments = append(teamAssignments, Blue.Repeat(8)...)
-	teamAssignments = append(teamAssignments, Neutral.Repeat(7)...)
-	teamAssignments = append(teamAssignments, Black)
-	teamAssignments = append(teamAssignments, game.StartingTeam)
+	teamAssignments = append(teamAssignments, Red.Repeat(12)...)
+	teamAssignments = append(teamAssignments, Blue.Repeat(12)...)
+	//teamAssignments = append(teamAssignments, Neutral.Repeat(7)...)
+	teamAssignments = append(teamAssignments, Blue)
+	//teamAssignments = append(teamAssignments, game.StartingTeam)
 
 	shuffleCount := rnd.Intn(5) + 5
 	for i := 0; i < shuffleCount; i++ {
