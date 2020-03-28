@@ -119,7 +119,6 @@ export class Game extends React.Component {
     else {
       count = 13-count;
     }
-
     return count;
   }
 
