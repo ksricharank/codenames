@@ -28,13 +28,13 @@ export class App extends React.Component {
       <div id="application">
         <div id="topbar">
           <a href={'http://' + window.location.host}>
-            <h1>BabyCode!</h1>
+            <h1>Baby Code !</h1>
           </a>
         </div>
         <div id="topbar2">
-          <a href={'http://' + window.location.host}>
+          <center>
             <h2>Sumaithri and Sricharan's Baby Gender Reveal</h2>
-          </a>
+          </center>
         </div>
         {pane}
       </div>
