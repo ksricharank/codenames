@@ -29,12 +29,10 @@ export class App extends React.Component {
         <div id="topbar">
           <a href={'http://' + window.location.host}>
             <h1>Baby Code !</h1>
-          </a>
-        </div>
-        <div id="topbar2">
-          <center>
+            <center>
             <h2>Sumaithri and Sricharan's Baby Gender Reveal</h2>
           </center>
+          </a>
         </div>
         {pane}
       </div>
