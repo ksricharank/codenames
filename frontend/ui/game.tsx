@@ -112,6 +112,14 @@ export class Game extends React.Component {
         count++;
       }
     }
+
+    if (color == 'red'){
+      count = 12-count;
+    }
+    else {
+      count = 13-count;
+    }
+
     return count;
   }
 
