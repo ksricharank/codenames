@@ -117,22 +117,22 @@ func (g *Game) checkWinningCondition() {
 	if g.WinningTeam != nil {
 		return
 	}
-	var redRemaining, blueRemaining bool
+	var blueRemaining bool
 	for i, t := range g.Layout {
 		if g.Revealed[i] {
 			continue
 		}
 		switch t {
-		case Red:
-			redRemaining = true
+		//case Red:
+		//	redRemaining = true
 		case Blue:
 			blueRemaining = true
 		}
 	}
-	if !redRemaining {
-		winners := winners
-		g.WinningTeam = &winners
-	}
+	//if !redRemaining {
+	//	winners := Red
+	//	g.WinningTeam = &winners
+	//}
 
 	if !blueRemaining {
 		winners := Blue
