@@ -7,7 +7,7 @@
 #share {
   color: #888;
   margin-bottom: 2em;
-  font-size: 2.0em;
+  font-size: 0.8em;
   padding-bottom: 2em;
   border-bottom: 1px #eee solid;
   font-family: system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
@@ -25,13 +25,16 @@
 }
 .red .status-text {
   color: #d13030;
+  font-size: 2.0em;
 }
 .blue .status-text {
   color: #4183cc;
+  font-size: 2.0em;
 }
 
 #remaining {
   width: 10em;
+  font-size: 2.0em;
 }
 #remaining .red-remaining {
   color: #d13030;
