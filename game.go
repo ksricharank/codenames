@@ -129,11 +129,11 @@ func (g *Game) checkWinningCondition() {
 			blueRemaining = true
 		}
 	}
-	//if !redRemaining {
-	//	winners := Red
+	if !redRemaining {
+		winners := nil
 	//	g.WinningTeam = &winners
-	//}
-	
+	}
+
 	if !blueRemaining {
 		winners := Blue
 		g.WinningTeam = &winners
