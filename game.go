@@ -130,8 +130,8 @@ func (g *Game) checkWinningCondition() {
 		}
 	}
 	if !redRemaining {
-		winners := nil
-	//	g.WinningTeam = &winners
+		winners := winners
+		g.WinningTeam = &winners
 	}
 
 	if !blueRemaining {
